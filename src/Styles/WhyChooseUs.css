@@ -1,0 +1,144 @@
+
+
+/* Container */
+.wcucontainer {
+  width: 80%;
+  margin: 50px auto; /* Center the container */
+  text-align: center;
+}
+
+/* Header */
+.header h2 {
+  color: var(--primary-color); /* Dark Red */
+  margin-bottom: 10px;
+}
+
+.header p {
+  
+  color: var(--paragraph); /* Light Gray */
+  max-width: 1100px;
+  margin: 0 auto 40px;
+  padding: 10px 0 10px 0;
+}
+
+/* Grid System */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+/* Card Styles */
+.card {
+  background-color: var(--accent-color); /* Light Green */
+  padding: 20px;
+  border-radius: 8px;
+  border: var(--secondary-color) 1px solid; /* Dark Green */
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: var(--heading); /* Dark Gray */
+  margin-bottom: 10px;
+}
+
+.card p {
+  padding: 1rem 0 2rem 0;
+}
+
+.card img {
+  width: 50px; /* Adjust based on icon size */
+  height: auto;
+  padding-bottom: 10px;
+}
+.card img:hover {
+  transform: scale(1.1);
+}
+
+
+/* Responsive Design for Mobile */
+@media (max-width: 768px) {
+
+  .wcucontainer{
+    margin-top: 60px;
+  }
+  
+  .cards {
+    grid-template-columns: 1fr; /* Single column layout */
+    gap: 15px; /* Reduce gap between cards */
+  }
+
+  .card {
+    padding: 15px; /* Slightly reduce padding */
+    margin-bottom: 10px; /* Extra spacing between cards */
+  }
+
+  .card h3 {
+    font-size: 18px; /* Reduce heading size */
+  }
+
+  .card p {
+    font-size: 16px; /* Reduce paragraph size for readability */
+  }
+
+  .card img {
+    width: 50px; /* Adjust icon size for mobile */
+  }
+
+  .header h2 {
+    font-size: 36px; /* Reduce heading size */
+  }
+
+  .header p {
+    font-size: 16px; /* Adjust paragraph font size */
+    padding: 5px 10px; /* Add side padding */
+  }
+}
+
+
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
+    opacity: 0; /* Initially hidden */
+    transform: translateX(-50px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+  }
+
+  .card.visible {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  /* Staggered animation effect */
+  .card:nth-child(1).visible {
+    transition-delay: 0.2s;
+  }
+  .card:nth-child(2).visible {
+    transition-delay: 0.2s;
+  }
+  .card:nth-child(3).visible {
+    transition-delay: 0.2s;
+  }
+  .card:nth-child(4).visible {
+    transition-delay: 0.2s;
+  }
+}

@@ -1,0 +1,282 @@
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 40px;
+  max-width: 1200px;
+  margin: auto;
+
+}
+
+.contact-form {
+  max-width: 50%;
+}
+
+.contact-form h2 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.contact-form p {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.input-group {
+ 
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-field {
+  width: 100%;
+  padding: 1rem;
+}
+
+.input-field label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.input-field input,
+.input-field textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #000;
+  border-radius: 4px;
+}
+
+.input-field textarea {
+  height: 80px;
+}
+
+.radio-group {
+  
+  margin: 10px 0 15px 15px;
+}
+
+.radio-group label{
+  font-size: 16px;
+}
+
+.radio-options {
+  margin-top: 10px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.checkbox-group {
+  font-size: 14px;
+  margin-left: 15px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 15px;
+}
+
+.checkbox-group a {
+  
+  text-decoration: none;
+
+}
+
+.submit-btn {
+  font-size: 16px;
+  margin-left: 15px;
+  border-radius: 10px;
+  background: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background: var(--secondary-color);
+}
+
+.contact-image {
+  margin-top: 50px;
+  width: 50%;
+  height: 550px;
+  border-radius: 8px;
+}
+.contact-image img{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.confirmation-message {
+  text-align: center;
+  font-size: 14px; /* Reduced font size */
+  font-weight: bold;
+  margin: 10px auto;
+  color: green;
+  max-width: 250px; /* Reduced width */
+}
+
+.confirmation-message.error {
+  color: red;
+}
+
+
+
+
+
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .contact-container {
+    flex-direction: column; /* Stack form vertically */
+    padding: 20px;
+    align-items: center;
+  }
+
+  .contact-form {
+    max-width: 100%; /* Full width */
+  }
+
+  .input-group {
+    flex-direction: column; /* Stack inputs one below another */
+  }
+
+  .input-field {
+    width: 100%;
+    padding: 10px 0; /* Adjust spacing */
+  }
+
+  .radio-group {
+    margin: 10px 0; /* Adjust spacing */
+  }
+
+  .contact-image {
+    display: none; /* Hide image on smaller screens */
+  }
+
+  .submit-btn {
+    width: 100%; /* Make submit button full width */
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-container {
+    padding: 15px;
+  }
+
+  .contact-form h2 {
+    font-size: 22px; /* Adjust heading size */
+  }
+
+  .contact-form p {
+    font-size: 16px;
+  }
+
+  .input-field input,
+  .input-field textarea {
+    padding: 10px;
+  }
+
+  .checkbox-group {
+    font-size: 12px;
+  }
+}
+
+
+
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  .contact-container {
+    flex-direction: column; /* Stack form vertically */
+    padding: 30px;
+    align-items: center;
+  }
+
+  .contact-form {
+    max-width: 100%; /* Full width */
+  }
+
+  .input-group {
+    flex-direction: column; /* Stack inputs one below another */
+  }
+
+  .input-field {
+    width: 100%;
+    padding: 15px 0; /* Adjust spacing */
+  }
+
+  .radio-group {
+    margin: 15px 0; /* Adjust spacing */
+  }
+
+  .contact-image {
+    display: none; /* Hide image on smaller screens */
+  }
+
+  .submit-btn {
+    width: 100%; /* Make submit button full width */
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-container {
+    flex-direction: column; /* Stack form vertically */
+    padding: 20px;
+    align-items: center;
+  }
+
+  .contact-form {
+    max-width: 100%; /* Full width */
+  }
+
+  .input-group {
+    flex-direction: column; /* Stack inputs one below another */
+  }
+
+  .input-field {
+    width: 100%;
+    padding: 10px 0; /* Adjust spacing */
+  }
+
+  .radio-group {
+    margin: 10px 0; /* Adjust spacing */
+  }
+
+  .contact-image {
+    display: none; /* Hide image on smaller screens */
+  }
+
+  .submit-btn {
+    width: 100%; /* Make submit button full width */
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-container {
+    padding: 15px;
+  }
+
+  .contact-form h2 {
+    font-size: 22px; /* Adjust heading size */
+  }
+
+  .contact-form p {
+    font-size: 16px;
+  }
+
+  .input-field input,
+  .input-field textarea {
+    padding: 10px;
+  }
+
+  .checkbox-group {
+    font-size: 12px;
+  }
+}

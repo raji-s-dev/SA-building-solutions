@@ -1,0 +1,55 @@
+/* Learnmore.css */
+
+.learnmore-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .learnmore-container h2 {
+    font-size: 32px;
+    color: #680707;
+    margin-bottom: 10px;
+  }
+  
+  .learnmore-container h3 {
+    font-size: 24px;
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  .learnmore-container p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  .learnmore-container ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .learnmore-container ul li {
+    font-size: 18px;
+    color: #555;
+    padding-left: 25px;
+    position: relative;
+    margin-bottom: 8px;
+  }
+  
+  .learnmore-container ul li::before {
+    content: "✔";
+    color: #680707;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+  }
+  
+  .separator {
+    height: 2px;
+    background-color: #680707;
+    margin: 40px 0;
+    width: 100%;
+  }
+  
