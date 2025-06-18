@@ -1,5 +1,7 @@
 import React from "react";
-import { Analytics } from "@vercel/analytics/react";
+import { inject } from "@vercel/analytics";
+
+
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
 import Navbar from "./Components/Navbar";
@@ -12,7 +14,10 @@ import Faq from "./Components/Faq";
 import ContactForm from "./Components/ContactForm";
 import Footer from "./Components/Footer";
 import LegalInfo from "./Pages/LegalInfo";
-import Learnmore from "./Pages/Learnmore"
+import Learnmore from "./Pages/Learnmore";
+
+// Inject Vercel Analytics
+inject();
 
 function App() {
   return (
@@ -33,7 +38,7 @@ function App() {
               <Faq />
               <ContactForm />
               <Footer />
-              <Analytics />
+              
             </>
           }
         />
