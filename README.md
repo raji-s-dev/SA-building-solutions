@@ -30,7 +30,7 @@ The project was developed for an actual client and is currently live in producti
 <br><br>
 
 
-## ⚙️ Tech Stack
+## Tech Stack
 
 - **React.js**  
 - **EmailJS**
@@ -39,7 +39,7 @@ The project was developed for an actual client and is currently live in producti
 <br><br>
 
 
-## 🔒 Licensing & Privacy
+## Licensing & Privacy
 
 > This project is owned by the client and is deployed in a real-world production environment.  
 > The source code is private and meant strictly for personal portfolio and interview demonstrations.  
@@ -49,7 +49,7 @@ The project was developed for an actual client and is currently live in producti
 <br><br>
 
 
-## 🧑‍💻 About Me
+## About Me
 
 **Developed by [Raji](https://github.com/raji-s-dev)**  
 
