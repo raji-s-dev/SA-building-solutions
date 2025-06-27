@@ -9,7 +9,9 @@ A professionally crafted, fully responsive React website developed for **SA Buil
 ## 📌 Project Overview
 
 This is a clean and modern business website built using React.  
+
 The goal was to highlight the client’s services, portfolio, and contact options in a clear and engaging way.  
+
 The project was developed for an actual client and is currently live in production.
 
 ---
@@ -33,7 +35,9 @@ The project was developed for an actual client and is currently live in producti
 ## 🔒 Licensing & Privacy
 
 > This project is owned by the client and is deployed in a real-world production environment.  
+
 > The source code is private and meant strictly for personal portfolio and interview demonstrations.  
+
 > **Any duplication, reuse, or redistribution is strictly not allowed.**
 
 ---
@@ -41,6 +45,3 @@ The project was developed for an actual client and is currently live in producti
 ## 🧑‍💻 About Me
 
 **Developed by [Raji](https://github.com/raji-s-dev)**  
-
-
-
