@@ -1,4 +1,5 @@
 <br>
+
 ## SA Building Solutions – React Business Website
 
 A professionally crafted, fully responsive React website developed for **SA Building Solutions**, a real-world construction startup based in India.
@@ -7,9 +8,8 @@ A professionally crafted, fully responsive React website developed for **SA Buil
 
 
 <br><br>
----
 
-## 📌 Project Overview
+## Project Overview
 
 This is a clean and modern business website built using React.  
 The goal was to highlight the client’s services, portfolio, and contact options in a clear and engaging way.  
@@ -17,9 +17,9 @@ The project was developed for an actual client and is currently live in producti
 
 
 <br><br>
----
 
-## 🚀 Key Highlights
+
+## Key Highlights
 
 - Responsive and mobile-friendly design with React  
 - Smooth navigation and interactive UI elements  
@@ -28,7 +28,7 @@ The project was developed for an actual client and is currently live in producti
 
 
 <br><br>
----
+
 
 ## ⚙️ Tech Stack
 
@@ -37,7 +37,7 @@ The project was developed for an actual client and is currently live in producti
 
 
 <br><br>
----
+
 
 ## 🔒 Licensing & Privacy
 
@@ -47,7 +47,7 @@ The project was developed for an actual client and is currently live in producti
 
 
 <br><br>
----
+
 
 ## 🧑‍💻 About Me
 
@@ -56,6 +56,6 @@ The project was developed for an actual client and is currently live in producti
 
 
 
----
+
 
 
