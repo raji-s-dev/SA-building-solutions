@@ -5,7 +5,7 @@ A professionally crafted, fully responsive React website developed for **SA Buil
 🔗 **Live Site:** [www.sabuildingsolutions.in](https://www.sabuildingsolutions.in)
 
 
-
+<br><br>
 ---
 
 ## 📌 Project Overview
@@ -15,7 +15,7 @@ The goal was to highlight the client’s services, portfolio, and contact option
 The project was developed for an actual client and is currently live in production.
 
 
-
+<br><br>
 ---
 
 ## 🚀 Key Highlights
@@ -26,7 +26,7 @@ The project was developed for an actual client and is currently live in producti
 - **Full SEO optimization** including meta tags, responsive markup, semantic HTML, and performance tuning
 
 
-
+<br><br>
 ---
 
 ## ⚙️ Tech Stack
@@ -35,7 +35,7 @@ The project was developed for an actual client and is currently live in producti
 - **EmailJS**
 
 
-
+<br><br>
 ---
 
 ## 🔒 Licensing & Privacy
@@ -45,13 +45,13 @@ The project was developed for an actual client and is currently live in producti
 > **Any duplication, reuse, or redistribution is strictly not allowed.**
 
 
-
+<br><br>
 ---
 
 ## 🧑‍💻 About Me
 
 **Developed by [Raji](https://github.com/raji-s-dev)**  
-Frontend Developer | MERN Stack | Tamil Nadu, India
+
 
 
 
